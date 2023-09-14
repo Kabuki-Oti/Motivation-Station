@@ -1,7 +1,8 @@
 const express = require("express");//imports Express.js module
-const cors = require("cors");//imports CORS middleware (ran npm install cors, now API is listening on port 3000)
+const cors = require('cors');//imports CORS middleware (ran npm install cors, now API is listening on port 3000)
 const logger = require("./logger");//imports logging middleware (refer to logger.js file)
 const app = express();
+// const { [displayQuote], [createNewQuote] } = require("./");
 
 const quotes = require("./quotes.json")
 
@@ -47,5 +48,3 @@ app.post("/quotes", (req, res) => {
 
     res.status(201).send(newQuote);//send sucess response back to client
 })
-
-module.exports = app;
