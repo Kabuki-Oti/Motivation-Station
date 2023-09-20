@@ -1,7 +1,8 @@
 body {
+  background-image: url("background.jpg");
   background-size: cover;
-  font-family: monospace;
   padding: 1rem;
+  font-family: 'Playfair Display', serif;
 }
 
 section {
@@ -14,7 +15,8 @@ section {
 
   padding: 1rem;
 
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.788);
+  border: 1px solid rgb(255, 187, 0);
   border-radius: 1rem;
 
   display: flex;
@@ -43,8 +45,23 @@ h3, em {
 
 button {
   font-size: 2rem;
-  font-family: monospace;
-  border: 1px solid black;
+  font-family: 'Amatic SC', cursive;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 5px;
+}
+
+button:hover {
+  border: 1px solid rgb(255, 187, 0);
+}
+
+input[type=text], input[type=submit] {
+  font-family: 'Playfair Display', serif;
+
+}
+
+input[type=submit]:hover {
+  border: 1px solid rgb(255, 187, 0);
   cursor: pointer;
 }

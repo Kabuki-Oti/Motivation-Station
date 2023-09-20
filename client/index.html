@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computing Wisdom</title>
-    <script src="./assets/index.js"></script>
+    <title>Motivation Station</title>
+    <link rel="icon" href="./assets/creativity.ico">
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <script defer src="./assets/index.js"></script>
 </head>
+
 <body>
     <section>
-        <h1>Computing Wisdom</h1>
+        <h1>Motivation Station</h1>
         <div id="container">
             <h3 id="text"></h3>
             <em id="author"></em>
         </div>
-        <button>Be Inspired</button>
+        <button id="btn-randomise">Quotes to Inspire</button>
         <br>
         <form id="create-form">
-            <input type="text" name="name" placeholder="name">
-            <input type="text" name="author" placeholder="author">
-            <input type="submit" value="Create"> 
+            <input type="text" name="name" placeholder="author">
+            <input type="text" name="author" placeholder="quote">
+            <input type="submit" value="Create">
         </form>
+        <p id="message"></p>
     </section>
 </body>
+
 </html>
