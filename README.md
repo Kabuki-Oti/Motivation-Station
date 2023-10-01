@@ -2,7 +2,7 @@
 
 ## Description
 
-Motivation Station is a website that generates random motivational quotes. It’s built using HTML, CSS, and JavaScript, with an API linked created using Express.js.
+Motivation Station is a website that generates random motivational quotes. It’s built using HTML, CSS, and JavaScript, with an API created using Express.js.
 
 ## Dependencies
 
