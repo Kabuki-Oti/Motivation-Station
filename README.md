@@ -1,27 +1,82 @@
-# Motivation Station
+# Motivation Station Web App
 
-## Description
+Motivation Station is a web application that provides users with motivational quotes to inspire and uplift their spirits. Users can also contribute their own motivational quotes to share with others.
 
-Motivation Station is a website that generates random motivational quotes. It’s built using HTML, CSS, and Vanilla JavaScript, with an express server and cors middleware.
+![ Motivation Station Screenshot](./client/assets/preview.png)
 
-## Dependencies
+## Table of Contents
 
-- **Express.js**: A fast, unopinionated, and flexible Node.js web application framework. It provides a robust set of features for web and mobile applications.
-- **CORS (Cross-Origin Resource Sharing)**: A mechanism that uses additional HTTP headers to tell browsers to give a web application running at one origin, access to selected resources from a different origin.
-- **Nodemon**: A utility that will monitor for any changes in your source and automatically restart your server.
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the App](#running-the-app)
+- [Usage](#usage)
 
-## Installation
+## Features
 
-1. Clone the repository.
-2. Install the dependencies using `npm install`.
-3. Start the server using `npm run dev`.
+- **Random Quote Generator:** Click the "Quotes to Inspire" button to display a random motivational quote on the screen.
+
+- **Create Your Own Quote:** Use the form provided to add your own motivational quotes to the collection.
+
+## Project Structure
+
+- `client/index.js`: JavaScript code for the client-side of the web app.
+- `server/app.js`: Express.js server code for handling requests and responses.
+- `server/index.js`: Entry point for running the server.
+- `server/logger.js`: Middleware for logging incoming requests.
+- `index.html`: HTML template for the web app.
+- `index.css`: Directory containing the CSS styles for the web app.
+
+## Getting Started
+
+These instructions will help you set up and run the Motivation Station web app on your local machine.
+
+### Prerequisites
+
+You need to have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd motivation-station
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Running the App
+
+1. Start the server:
+
+   ```bash
+   npm run dev
+   ```
+
+   This will run the server on [http://localhost:3000](http://localhost:3000).
+
+2. Open with Live Server to use the Motivation Station web app.
 
 ## Usage
 
-Visit the website and click on the button ‘Quotes to Inspire’ to generate a new motivational quote.
+- Click the "Quotes to Inspire" button to get a random motivational quote.
+- Use the form to add your own motivational quotes. Enter the author's name and the quote text and click "Create."
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+---
 
-## Languages and Tools
-<p> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
+Enjoy using Motivation Station and stay motivated!
